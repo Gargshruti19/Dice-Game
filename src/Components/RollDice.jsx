@@ -2,8 +2,7 @@
 
 import styled from "styled-components";
 
-const RollDice = ({ currentDice,rollDice }) => {
-	
+const RollDice = ({ currentDice, rollDice }) => {
 	return (
 		<DiceContainer>
 			<div className="dice" onClick={rollDice}>
@@ -17,7 +16,7 @@ const RollDice = ({ currentDice,rollDice }) => {
 export default RollDice;
 
 const DiceContainer = styled.div`
-	margin-top: 48px;
+	margin-top: 20px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -25,6 +24,10 @@ const DiceContainer = styled.div`
 		cursor: pointer;
 	}
 	p {
-		font-size: 24px;
+		font-size: 20px;
+	}
+	.dice img {
+		height: 200px;
+		width: 200px;
 	}
 `;

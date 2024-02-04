@@ -16,11 +16,11 @@ const ScoreContainer = styled.div`
 	max-width: 200px;
 	text-align: center;
 	h1 {
-		font-size: 100px;
-		line-height: 100px;
+		font-size: 90px;
+		line-height: 90px;
 	}
 	p {
-		font-size: 24px;
+		font-size: 22px;
 		font-weight: 500;
 	}
 `;
