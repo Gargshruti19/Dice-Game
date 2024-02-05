@@ -29,5 +29,24 @@ const Container = styled.div`
 			white-space: nowrap;
 		}
 	}
+	@media (max-width: 400px) {
+		flex-direction: column;
+		max-width: 300px;
+		gap: 20px;
+		border: 1px solid black;
+		div img {
+			width: 280px;
+			height: 240px;
+		}
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 20px;
+			h1 {
+				font-size: 50px;
+				white-space: nowrap;
+			}
+		}
+	}
 `;
-

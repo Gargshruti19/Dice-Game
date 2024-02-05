@@ -30,4 +30,14 @@ const DiceContainer = styled.div`
 		height: 200px;
 		width: 200px;
 	}
+	@media (max-width: 400px) {
+		margin-top: 10px;
+		.dice img {
+			height: 150px;
+			width: 150px;
+		}
+		p {
+			font-size: 15px;
+		}
+	}
 `;

@@ -77,4 +77,18 @@ const MainContainer = styled.div`
 		align-items: center;
 		margin-top: 20px;
 	}
+	@media (max-width: 400px) {
+		max-width: 300px;
+
+		padding-top: 10px;
+		.top-section {
+			flex-direction: column;
+			align-items: center;
+		}
+		.btns {
+			flex-direction: column;
+			gap: 15px;
+			margin-top: 15px;
+		}
+	}
 `;

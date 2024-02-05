@@ -31,6 +31,15 @@ const RulesContainer = styled.div`
 		font-weight: bold;
 	}
 	.text {
-		margin-top: 24px;
+		margin-top: 20px;
+	}
+	@media (max-width: 400px) {
+		max-width: 300px;
+		h2 {
+			font-size: 20px;
+		}
+		.text {
+			margin-top: 18px;
+		}
 	}
 `;
