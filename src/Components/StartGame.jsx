@@ -34,7 +34,8 @@ const Container = styled.div`
 		max-width: 300px;
 		gap: 50px;
 		justify-content: center;
-		margin-top: 40px;
+		margin-top: 10px;
+		overflow: hidden;
 		div img {
 			width: 280px;
 			height: 240px;
