@@ -30,7 +30,7 @@ const DiceContainer = styled.div`
 		height: 200px;
 		width: 200px;
 	}
-	@media (max-width: 400px) {
+	@media (max-width: 431px) {
 		margin-top: 10px;
 		.dice img {
 			height: 150px;

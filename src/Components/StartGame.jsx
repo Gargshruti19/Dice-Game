@@ -29,7 +29,7 @@ const Container = styled.div`
 			white-space: nowrap;
 		}
 	}
-	@media (max-width: 400px) {
+	@media (max-width: 431px) {
 		flex-direction: column;
 		max-width: 300px;
 		gap: 40px;

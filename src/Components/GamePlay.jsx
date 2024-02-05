@@ -77,7 +77,7 @@ const MainContainer = styled.div`
 		align-items: center;
 		margin-top: 20px;
 	}
-	@media (max-width: 400px) {
+	@media (max-width: 431px) {
 		max-width: 300px;
 
 		padding-top: 10px;

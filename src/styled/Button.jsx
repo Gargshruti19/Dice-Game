@@ -17,7 +17,7 @@ export const Button = styled.button`
 		border: 1px solid black;
 		transition: 0.3s background ease-in;
 	}
-	@media (max-width: 400px) {
+	@media (max-width: 431px) {
 		max-width: 50px;
 		padding: 10px 5px;
 		font-size: 17px;
@@ -36,7 +36,7 @@ export const OutlineButton = styled(Button)`
 		border: 1px solid transparent;
 		transition: 0.3s background ease-in;
 	}
-	@media (max-width: 400px) {
+	@media (max-width: 431px) {
 		max-width: 50px;
 		padding: 8px 5px;
 		font-size: 17px;
