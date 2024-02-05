@@ -77,6 +77,32 @@ const NumberSelectorContainer = styled.div`
 			font-size: 14px;
 		}
 	}
+	@media (max-width: 1030px) and (min-width: 769px) {
+		gap: 14px;
+
+		.flex {
+			gap: 22px;
+		}
+		p {
+			font-size: 19px;
+		}
+		.error {
+			font-size: 14px;
+		}
+	}
+	@media (max-width: 1200px) and (min-width: 1030px) {
+		gap: 15px;
+
+		.flex {
+			gap: 24px;
+		}
+		p {
+			font-size: 19px;
+		}
+		.error {
+			font-size: 14px;
+		}
+	}
 `;
 
 const Box = styled.div`
@@ -100,5 +126,15 @@ const Box = styled.div`
 		height: 40px;
 		width: 40px;
 		font-size: 19px;
+	}
+	@media (max-width: 1030px) and (min-width: 769px) {
+		height: 55px;
+		width: 55px;
+		font-size: 20px;
+	}
+	@media (max-width: 1200px) and (min-width: 1030px) {
+		height: 62px;
+		width: 62px;
+		font-size: 21px;
 	}
 `;

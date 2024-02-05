@@ -25,6 +25,14 @@ export const Button = styled.button`
 		padding: 6px 5px;
 		font-size: 18px;
 	}
+	@media (max-width: 1030px) and (min-width: 769px) {
+		padding: 8px 5px;
+		font-size: 17px;
+	}
+	@media (max-width: 1200px) and (min-width: 1030px) {
+		padding: 8px 5px;
+		font-size: 16px;
+	}
 `;
 
 export const OutlineButton = styled(Button)`

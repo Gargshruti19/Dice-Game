@@ -108,7 +108,33 @@ const MainContainer = styled.div`
 		padding-top: 20px;
 		.top-section {
 			align-items: center;
-			gap: 60px;
+			gap: 20px;
+		}
+		.btns {
+			gap: 18px;
+			margin-top: 15px;
+		}
+	}
+	@media (max-width: 1030px) and (min-width: 769px) {
+		max-width: 700px;
+
+		padding-top: 20px;
+		.top-section {
+			align-items: center;
+			gap: 30px;
+		}
+		.btns {
+			gap: 16px;
+			margin-top: 15px;
+		}
+	}
+	@media (max-width: 1200px) and (min-width: 1030px) {
+		max-width: 900px;
+
+		padding-top: 20px;
+		.top-section {
+			align-items: center;
+			gap: 40px;
 		}
 		.btns {
 			gap: 18px;

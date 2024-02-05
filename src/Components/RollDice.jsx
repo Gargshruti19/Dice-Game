@@ -50,4 +50,24 @@ const DiceContainer = styled.div`
 			font-size: 18px;
 		}
 	}
+	@media (max-width: 1030px) and (min-width: 769px) {
+		margin-top: 20px;
+		.dice img {
+			height: 190px;
+			width: 190px;
+		}
+		p {
+			font-size: 19px;
+		}
+	}
+	@media (max-width: 1200px) and (min-width: 1030px) {
+		margin-top: 20px;
+		.dice img {
+			height: 200px;
+			width: 200px;
+		}
+		p {
+			font-size: 20px;
+		}
+	}
 `;
