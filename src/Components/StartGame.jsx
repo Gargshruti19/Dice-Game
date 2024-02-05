@@ -32,14 +32,13 @@ const Container = styled.div`
 	@media (max-width: 400px) {
 		flex-direction: column;
 		max-width: 300px;
-		gap: 50px;
+		gap: 40px;
 		justify-content: center;
-		margin-top: 10px;
 		overflow: hidden;
 		div img {
 			width: 280px;
 			height: 240px;
-			padding-top: 30px;
+			padding-top: 20px;
 		}
 		.content {
 			display: flex;
