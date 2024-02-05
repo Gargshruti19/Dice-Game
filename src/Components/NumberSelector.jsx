@@ -73,21 +73,12 @@ const NumberSelectorContainer = styled.div`
 		p {
 			font-size: 18px;
 		}
-		.error {
-			font-size: 14px;
-		}
 	}
 	@media (max-width: 1030px) and (min-width: 769px) {
 		gap: 14px;
 
 		.flex {
 			gap: 22px;
-		}
-		p {
-			font-size: 19px;
-		}
-		.error {
-			font-size: 14px;
 		}
 	}
 	@media (max-width: 1200px) and (min-width: 1030px) {
@@ -135,6 +126,6 @@ const Box = styled.div`
 	@media (max-width: 1200px) and (min-width: 1030px) {
 		height: 62px;
 		width: 62px;
-		font-size: 21px;
+		font-size: 22px;
 	}
 `;

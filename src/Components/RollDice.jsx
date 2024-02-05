@@ -31,7 +31,6 @@ const DiceContainer = styled.div`
 		width: 200px;
 	}
 	@media (max-width: 431px) {
-		margin-top: 10px;
 		.dice img {
 			height: 150px;
 			width: 150px;
@@ -41,7 +40,6 @@ const DiceContainer = styled.div`
 		}
 	}
 	@media (max-width: 769px) and (min-width: 431px) {
-		margin-top: 20px;
 		.dice img {
 			height: 170px;
 			width: 170px;
@@ -51,7 +49,6 @@ const DiceContainer = styled.div`
 		}
 	}
 	@media (max-width: 1030px) and (min-width: 769px) {
-		margin-top: 20px;
 		.dice img {
 			height: 190px;
 			width: 190px;
@@ -60,14 +57,5 @@ const DiceContainer = styled.div`
 			font-size: 19px;
 		}
 	}
-	@media (max-width: 1200px) and (min-width: 1030px) {
-		margin-top: 20px;
-		.dice img {
-			height: 200px;
-			width: 200px;
-		}
-		p {
-			font-size: 20px;
-		}
-	}
+
 `;

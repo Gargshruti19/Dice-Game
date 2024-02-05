@@ -37,13 +37,7 @@ const RulesContainer = styled.div`
 		width: 250px;
 		height: 230px;
 		h2 {
-			font-size: 20px;
-		}
-		.text {
-			margin-top: 18px;
-			display: flex;
-			flex-direction: column;
-			gap: 5px;
+			font-size: 21px;
 		}
 	}
 	@media (max-width: 476px) and (min-width: 431px) {
@@ -54,33 +48,21 @@ const RulesContainer = styled.div`
 		width: 375px;
 		height: 240px;
 		h2 {
-			font-size: 28px;
-		}
-		.text {
-			margin-top: 18px;
-			display: flex;
-			flex-direction: column;
-			gap: 6px;
+			font-size: 22px;
 		}
 	}
 	@media (max-width: 1030px) and (min-width: 769px) {
 		width: 450px;
 		height: 260px;
 		h2 {
-			font-size: 29px;
-		}
-		.text {
-			margin-top: 18px;
-			display: flex;
-			flex-direction: column;
-			gap: 6px;
+			font-size: 23px;
 		}
 	}
 	@media (max-width: 1200px) and (min-width: 1030px) {
 		width: 600px;
 		height: 300px;
 		h2 {
-			font-size: 30px;
+			font-size: 24px;
 		}
 		.text {
 			margin-top: 18px;

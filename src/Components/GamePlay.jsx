@@ -93,6 +93,7 @@ const MainContainer = styled.div`
 		}
 	}
 	@media (max-width: 476px) and (min-width: 431px) {
+		padding-top: 10px;
 		.top-section {
 			flex-direction: column;
 			gap: 20px;
@@ -104,8 +105,6 @@ const MainContainer = styled.div`
 	}
 	@media (max-width: 769px) and (min-width: 431px) {
 		max-width: 475px;
-
-		padding-top: 20px;
 		.top-section {
 			align-items: center;
 			gap: 20px;
@@ -117,15 +116,12 @@ const MainContainer = styled.div`
 	}
 	@media (max-width: 1030px) and (min-width: 769px) {
 		max-width: 700px;
-
-		padding-top: 20px;
 		.top-section {
 			align-items: center;
 			gap: 30px;
 		}
 		.btns {
 			gap: 16px;
-			margin-top: 15px;
 		}
 	}
 	@media (max-width: 1200px) and (min-width: 1030px) {

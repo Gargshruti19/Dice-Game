@@ -22,7 +22,9 @@ const Container = styled.div`
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	height: 100vh;
+	gap: 10px;
 	.content {
 		h1 {
 			font-size: 96px;
@@ -32,90 +34,64 @@ const Container = styled.div`
 	@media (max-width: 431px) {
 		flex-direction: column;
 		max-width: 300px;
-		gap: 40px;
+		gap: 20px;
 		justify-content: center;
-		overflow: hidden;
+		align-items: center;
 		div img {
 			width: 280px;
 			height: 240px;
-			padding-top: 20px;
 		}
 		.content {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			gap: 40px;
 
 			h1 {
 				font-size: 50px;
-				white-space: nowrap;
 			}
 		}
 	}
 	@media (max-width: 769px) and (min-width: 431px) {
 		flex-direction: column;
 		max-width: 475px;
-		gap: 30px;
+		gap: 20px;
 		justify-content: center;
 		align-items: center;
 		div img {
 			width: 340px;
 			height: 260px;
-			padding-top: 20px;
 		}
 		.content {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			gap: 30px;
 
 			h1 {
 				font-size: 70px;
-				white-space: nowrap;
 			}
 		}
 	}
 	@media (max-width: 1030px) and (min-width: 769px) {
-		/* flex-direction: column; */
 		max-width: 700px;
-		justify-content: center;
-		align-items: center;
 		div img {
 			width: 380px;
 			height: 300px;
-			padding-top: 20px;
 		}
 		.content {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			gap: 40px;
-
 			h1 {
 				font-size: 80px;
-				white-space: nowrap;
 			}
 		}
 	}
 	@media (max-width: 1200px) and (min-width: 1030px) {
-		/* flex-direction: column; */
 		max-width: 900px;
-		justify-content: center;
-		align-items: center;
 		div img {
 			width: 500px;
 			height: 400px;
-			padding-top: 20px;
 		}
 		.content {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			gap: 40px;
-
 			h1 {
 				font-size: 85px;
-				white-space: nowrap;
 			}
 		}
 	}

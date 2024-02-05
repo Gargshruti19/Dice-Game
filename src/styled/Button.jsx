@@ -18,19 +18,19 @@ export const Button = styled.button`
 		transition: 0.3s background ease-in;
 	}
 	@media (max-width: 431px) {
-		padding: 8px 5px;
-		font-size: 16px;
+		/* padding: 8px 5px; */
+		font-size: 17px;
 	}
 	@media (max-width: 769px) and (min-width: 431px) {
-		padding: 6px 5px;
+		/* padding: 6px 5px; */
 		font-size: 18px;
 	}
 	@media (max-width: 1030px) and (min-width: 769px) {
-		padding: 8px 5px;
-		font-size: 17px;
+		/* padding: 8px 5px; */
+		font-size: 16px;
 	}
 	@media (max-width: 1200px) and (min-width: 1030px) {
-		padding: 8px 5px;
+		/* padding: 8px 5px; */
 		font-size: 16px;
 	}
 `;

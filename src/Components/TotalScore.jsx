@@ -30,7 +30,6 @@ const ScoreContainer = styled.div`
 		}
 		p {
 			font-size: 18px;
-			font-weight: 500;
 		}
 	}
 	@media (max-width: 769px) and (min-width: 431px) {
@@ -40,7 +39,6 @@ const ScoreContainer = styled.div`
 		}
 		p {
 			font-size: 18px;
-			font-weight: 500;
 		}
 	}
 	@media (max-width: 1030px) and (min-width: 769px) {
@@ -50,7 +48,6 @@ const ScoreContainer = styled.div`
 		}
 		p {
 			font-size: 19px;
-			font-weight: 500;
 		}
 	}
 	@media (max-width: 1200px) and (min-width: 1030px) {
@@ -60,7 +57,6 @@ const ScoreContainer = styled.div`
 		}
 		p {
 			font-size: 20px;
-			font-weight: 500;
 		}
 	}
 `;
