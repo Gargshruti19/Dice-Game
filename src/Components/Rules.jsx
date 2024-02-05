@@ -41,6 +41,9 @@ const RulesContainer = styled.div`
 		}
 		.text {
 			margin-top: 18px;
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
 		}
 	}
 `;

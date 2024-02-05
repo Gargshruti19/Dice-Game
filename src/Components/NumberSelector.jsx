@@ -52,10 +52,10 @@ const NumberSelectorContainer = styled.div`
 		padding-bottom: 5px;
 	}
 	@media (max-width: 400px) {
-		gap: 20px;
+		gap: 10px;
 
 		.flex {
-			gap: 20px;
+			gap: 18px;
 		}
 		p {
 			font-size: 17px;
