@@ -35,6 +35,7 @@ const RulesContainer = styled.div`
 	}
 	@media (max-width: 400px) {
 		max-width: 300px;
+		height: 200px;
 		h2 {
 			font-size: 20px;
 		}

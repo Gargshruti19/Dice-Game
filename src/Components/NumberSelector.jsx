@@ -52,13 +52,13 @@ const NumberSelectorContainer = styled.div`
 		padding-bottom: 5px;
 	}
 	@media (max-width: 400px) {
-		gap: 10px;
+		gap: 20px;
 
 		.flex {
 			gap: 20px;
 		}
 		p {
-			font-size: 14px;
+			font-size: 17px;
 		}
 		.error {
 			font-size: 12px;
@@ -79,8 +79,8 @@ const Box = styled.div`
 	color: ${(props) => (props.isSelected ? "white" : "black")};
 
 	@media (max-width: 400px) {
-		height: 24px;
-		width: 24px;
-		font-size: 16px;
+		height: 28px;
+		width: 28px;
+		font-size: 17px;
 	}
 `;

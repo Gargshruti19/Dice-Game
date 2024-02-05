@@ -84,6 +84,7 @@ const MainContainer = styled.div`
 		.top-section {
 			flex-direction: column;
 			align-items: center;
+			gap: 20px;
 		}
 		.btns {
 			flex-direction: column;
