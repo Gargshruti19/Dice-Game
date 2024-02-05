@@ -46,4 +46,21 @@ const RulesContainer = styled.div`
 			gap: 5px;
 		}
 	}
+	@media (max-width: 476px) and (min-width: 431px) {
+		width: 320px;
+		height: 230px;
+	}
+	@media (max-width: 769px) and (min-width: 431px) {
+		width: 375px;
+		height: 240px;
+		h2 {
+			font-size: 28px;
+		}
+		.text {
+			margin-top: 18px;
+			display: flex;
+			flex-direction: column;
+			gap: 6px;
+		}
+	}
 `;

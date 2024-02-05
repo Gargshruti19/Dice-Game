@@ -52,4 +52,27 @@ const Container = styled.div`
 			}
 		}
 	}
+	@media (max-width: 769px) and (min-width: 431px) {
+		flex-direction: column;
+		max-width: 475px;
+		gap: 30px;
+		justify-content: center;
+		align-items: center;
+		div img {
+			width: 340px;
+			height: 260px;
+			padding-top: 20px;
+		}
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 30px;
+
+			h1 {
+				font-size: 70px;
+				white-space: nowrap;
+			}
+		}
+	}
 `;

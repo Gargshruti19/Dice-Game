@@ -64,6 +64,19 @@ const NumberSelectorContainer = styled.div`
 			font-size: 12px;
 		}
 	}
+	@media (max-width: 769px) and (min-width: 431px) {
+		gap: 14px;
+
+		.flex {
+			gap: 20px;
+		}
+		p {
+			font-size: 18px;
+		}
+		.error {
+			font-size: 14px;
+		}
+	}
 `;
 
 const Box = styled.div`
@@ -82,5 +95,10 @@ const Box = styled.div`
 		height: 28px;
 		width: 28px;
 		font-size: 17px;
+	}
+	@media (max-width: 769px) and (min-width: 431px) {
+		height: 40px;
+		width: 40px;
+		font-size: 19px;
 	}
 `;

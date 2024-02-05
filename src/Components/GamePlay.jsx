@@ -92,4 +92,27 @@ const MainContainer = styled.div`
 			margin-top: 15px;
 		}
 	}
+	@media (max-width: 476px) and (min-width: 431px) {
+		.top-section {
+			flex-direction: column;
+			gap: 20px;
+		}
+		.btns {
+			flex-direction: column;
+			gap: 16px;
+		}
+	}
+	@media (max-width: 769px) and (min-width: 431px) {
+		max-width: 475px;
+
+		padding-top: 20px;
+		.top-section {
+			align-items: center;
+			gap: 60px;
+		}
+		.btns {
+			gap: 18px;
+			margin-top: 15px;
+		}
+	}
 `;

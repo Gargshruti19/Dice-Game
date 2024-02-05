@@ -33,4 +33,14 @@ const ScoreContainer = styled.div`
 			font-weight: 500;
 		}
 	}
+	@media (max-width: 769px) and (min-width: 431px) {
+		h1 {
+			font-size: 60px;
+			line-height: 60px;
+		}
+		p {
+			font-size: 18px;
+			font-weight: 500;
+		}
+	}
 `;
